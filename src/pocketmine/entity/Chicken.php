@@ -58,9 +58,8 @@ class Chicken extends Animal{
 	
 	      public function getDrops(){
 		            $drops = [
-			                  ItemItem::get(ItemItem::FEATHER, 0, 1);
+			                  ItemItem::get(ItemItem::FEATHER, 0, 1),
 			                  ItemItem::get(ItemItem::RAW_CHICKEN, 0, mt_rand(1, 2));
 		            ];
 	      }
-
 }
